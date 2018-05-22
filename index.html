@@ -10,63 +10,78 @@
     <link rel="me" href="sms:380634871000">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
     <title>Lysakov Ivan — Résumé</title>
+    <script src="jquery/jquery-3.3.1.js"></script>
+    <script src="sticky/sticky.js"></script>
+    <script>
+    $(document).ready(function(){
+     $('.ui.sticky')
+  .sticky({
+    context: '#example1'
+  });
+  })
+    </script>
 </head>
 
 <body>
 
     <div class="ui container">
         <div class="ui internally celled padded grid">
-            <div class="ui four wide column">
-                <div class="ui row">
-                    <div id="photo-block">
-                        <svg xmlns="http://www.w3.org/2000/svg" id="photo" viewBox="0 0 100 126" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <image id="face" width="100%" height="100%" xlink:href="./style/images/my_photo.png" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="ui row">
-
-
-                    <h2 class="ui header">
-                        Lysakov Ivan
-                        <div class="sub header">Software developer</div>
-                    </h2>
-
-                    <p>Hello! My name is Ivan and I am a cop 👮 and software developer &#x261D; My purpose is to do my favorite
-                        work - creating new features to simplify my colleagues work routine. I'm always open to learning
-                        and everything new and unusual.</p>
-                    <p></p>
-                </div>
-                <div class="ui row">
-                    <div class="ui list">
-
-                        <div class="item">
-                            <i class="phone icon"></i>
-                            <div class="content">
-                                +380 (63) 487-10-00
+            <div class="ui four wide column" id=example1>
+                <div class="ui sticky">  
+                        <div class="ui row">
+                                <div id="photo-block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="photo" viewBox="0 0 100 126" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <image id="face" width="100%" height="100%" xlink:href="./style/images/my_photo.png" />
+                                    </svg>
+                                </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <i class="mail icon"></i>
-                            <div class="content">
-                                <a href="mailto:ivanlysakov@gmail.com">ivanlysakov@gmail.com</a>
+                            <div class="ui row">
+            
+            
+                                <h2 class="ui header">
+                                    Lysakov Ivan
+                                    <div class="sub header">Software developer</div>
+                                </h2>
+            
+                                <p>Hello! My name is Ivan and I am a cop 👮 and software developer &#x261D; My purpose is to do my favorite
+                                    work - creating new features to simplify my colleagues work routine. I'm always open to learning
+                                    and everything new and unusual.</p>
+                                <p></p>
                             </div>
-                        </div>
-                        <div class="item">
-                            <i class="linkedin icon"></i>
-                            <div class="content">
-                                <a href="https://linkedin.com/in/lysakov-ivan-ua/">ivanlysakov</a>
+                            <div class="ui row">
+                                <div class="ui list">
+            
+                                    <div class="item">
+                                        <i class="phone icon"></i>
+                                        <div class="content">
+                                            +380 (63) 487-10-00
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <i class="mail icon"></i>
+                                        <div class="content">
+                                            <a href="mailto:ivanlysakov@gmail.com">ivanlysakov@gmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <i class="linkedin icon"></i>
+                                        <div class="content">
+                                            <a href="https://linkedin.com/in/lysakov-ivan-ua/">ivanlysakov</a>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <i class="skype icon"></i>
+                                        <div class="content">
+                                            <a href="skype:navivokasyl?userinfo">navivokasyl</a>
+                                           </div>
+                                    </div>
+                                </div>
+            
                             </div>
-                        </div>
-                        <div class="item">
-                            <i class="skype icon"></i>
-                            <div class="content">
-                                <a href="skype:navivokasyl?userinfo">navivokasyl</a>
-                               </div>
-                        </div>
-                    </div>
-
+                
                 </div>
+               
+            
             </div>
             <div class="ui ten wide column">
                 <div class="ui raised segment">
@@ -82,7 +97,7 @@
 
                         <li>
                             <p>
-                                <em>January 2015 – present</em>
+                                <em>January 2015 – present</em> 
                             </p>
 
                             <p>
